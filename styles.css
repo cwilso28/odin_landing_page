@@ -18,6 +18,11 @@ button {
   background-color:#3882F6;
 }
 
+button:hover { 
+  background-color: white;
+  color: #3882F6;
+}
+
 /* Define the font style */
 .header-logo,
 .hero-main,
@@ -47,7 +52,11 @@ button {
 }
 
 
-/* Layout styling*/
+/* Section 1 layout styling*/
+.section1-container {
+  padding: 10px 100px 75px 100px;
+}
+
 a {
   text-decoration: none;
 }
@@ -55,15 +64,43 @@ a {
 ul {
   list-style: none;
   padding:0;
+  display: flex;
+  gap: 8px;
 }
 
 button {
+  display: flex;
   border-radius: 8px;
   padding: 4px 12px;
   transition-duration: 0.3s;
+  border:0;
 }
 
-button:hover { 
-  background-color: white;
-  color: #3882F6;
+.section1-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px; 
+}
+
+.section1-content,
+.hero {
+  display: flex;
+}
+
+.section1-content {
+  gap: 20px;
+}
+
+.hero {
+  flex-direction: column;
+  flex:1;
+  gap: 8px;
+}
+
+.img {
+  flex: 1;
+  background-color: gray;
+  text-align: center;
+  align-content: center;
 }
