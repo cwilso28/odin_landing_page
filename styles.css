@@ -1,0 +1,47 @@
+* {
+  border: 1px solid black;
+  margin:0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Define the background colors */
+.section1-container {
+  background-color: #1f2937;
+}
+
+/* Define the font style */
+.header-logo,
+.hero-main {
+  color: #F9FAF8;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-secondary,
+a,
+.img,
+button {
+  color:#E5E7EB;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding:0;
+}
