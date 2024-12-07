@@ -10,7 +10,8 @@ body {
 }
 
 /* Define the background colors */
-.section1-container {
+.section1-container,
+.section5-container {
   background-color: #1f2937;
 }
 
@@ -49,7 +50,8 @@ button,
 .hero-secondary,
 a,
 .img,
-.cta-body{
+.cta-body,
+.footer {
   color:#E5E7EB;
   font-size: 18px;
 }
@@ -194,4 +196,11 @@ button {
   justify-content: center;
   align-items: center;
   margin-left:auto;
+  flex-shrink: 0;
+}
+
+/*Section 5 style formatting*/
+.section5-container {
+  text-align: center;
+  padding: 20px;
 }
