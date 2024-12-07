@@ -23,6 +23,10 @@ button:hover {
   color: #3882F6;
 }
 
+.section3-container{
+  background-color: #E5E7EB;
+}
+
 /* Define the font style */
 .header-logo,
 .hero-main,
@@ -59,7 +63,8 @@ button {
 
 /* Section 1 layout styling*/
 .section1-container,
-.section2-container {
+.section2-container,
+.section3-container {
   padding: 0px 100px 75px 100px;
 }
 
@@ -112,6 +117,17 @@ button {
   align-content: center;
 }
 
+.quote {
+  font-size:36px;
+  font-style: italic;
+  font-weight:100;
+}
+
+.attribute {
+  font-size: 24px;
+  font-weight: 900;
+}
+
 /* Section 2 layout formatting */
 .section2-container h2 {
   text-align: center;
@@ -138,5 +154,9 @@ button {
 .section2-img-blocks h3,
 .section2-img-blocks p {
   text-align: center;
+}
+
+.section3-container {
+  padding-top:75px;
 }
 
