@@ -1,5 +1,5 @@
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin:0;
 }
 
@@ -71,6 +71,18 @@ button {
   color: #E5E7EB;
 }
 
+
+.quote {
+  font-size:36px;
+  font-style: italic;
+  font-weight:100;
+}
+
+.attribute {
+  font-size: 24px;
+  font-weight: 900;
+}
+
 /* Section 1 layout styling*/
 .section1-container,
 .section2-container,
@@ -113,6 +125,7 @@ button {
 
 .section1-content {
   gap: 20px;
+  align-items:center;
 }
 
 .hero {
@@ -121,24 +134,17 @@ button {
   gap: 8px;
 }
 
-.img {
+/* .img {
   flex: 0 0 400px;
   background-color: gray;
   text-align: center;
   align-content: center;
-}
+} */
 
-.quote {
-  font-size:36px;
-  font-style: italic;
-  font-weight:100;
+.section1-container img {
+  width: 400px;
+  height:100%;
 }
-
-.attribute {
-  font-size: 24px;
-  font-weight: 900;
-}
-
 /* Section 2 layout formatting */
 .section2-container h2 {
   text-align: center;
